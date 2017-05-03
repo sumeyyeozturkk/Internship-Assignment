@@ -2,16 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Proje</title>
 </head>
 <body>
 
-{%for i in data%}
-    <p> {{i.kitapId}}</p>
-    <p> {{i.name}}</p>
-    <p> {{i.yazar_adi}}</p>
-    <p>{{i.sayfa_sayisi}}</p>
 
+{%for i in data%}
+    <p><a href="{%url 'app:edit' i.name %}">{{i.name}}</a> {{i.yazar_adi}} {{i.sayfa_sayisi}}</p>
 {%endfor%}
 
 </body>

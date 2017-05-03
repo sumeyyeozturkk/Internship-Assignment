@@ -19,8 +19,8 @@ from . import views
 from .models import Kitap
 
 urlpatterns = [
-    url(r'^edit/(?P<kitapId>\w{0,50})$', views.edit),
+    url(r'^edit/(?P<name>\w{0,50})$', views.edit, name='edit'),
     url(r'^create$', views.create),
     url(r'^list$', views.list),
-    url(r'^delete/(?P<kitapId>\w{0,50})$', views.delete),
+    url(r'^delete/(?P<name>\w{0,50})$', views.delete),
 ]
