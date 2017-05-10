@@ -14,29 +14,25 @@
 - By using "docker pull sumeyye1928/proje", we're going to pull our images file.
 # ![](images/1.png)
 
-- By using "docker pull sumeyye1928/proje", we're going to pull our images file.
+-Error:Docker daemon is not running --> "eval $(docker-machine env default)
 # ![](images/2.png)
 
-- By using "docker pull sumeyye1928/proje", we're going to pull our images file.
+-"docker ps"
 # ![](images/3.png)
 
-- By using "docker pull sumeyye1928/proje", we're going to pull our images file.
+- If the sumeyye1928/proje does not appear after the "docker ps" command, the "docker images" command is entered.
 # ![](images/4.png)
 
-- By using "docker pull sumeyye1928/proje", we're going to pull our images file.
+- "docker start <Images ID>
 # ![](images/5.png)
 
-- By using "docker pull sumeyye1928/proje", we're going to pull our images file.
+- "docker ps" and "docker exec -u root -it <Container ID> bash"
 # ![](images/6.png)
 
-- By using "docker pull sumeyye1928/proje", we're going to pull our images file.
 # ![](images/7.png)
 
-- By using "docker pull sumeyye1928/proje", we're going to pull our images file.
 # ![](images/8.png)
 
-- By using "docker pull sumeyye1928/proje", we're going to pull our images file.
 # ![](images/9.png)
 
-- By using "docker pull sumeyye1928/proje", we're going to pull our images file.
 # ![](images/10.png)
