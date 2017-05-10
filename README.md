@@ -23,10 +23,10 @@
 - If the sumeyye1928/proje does not appear after the "docker ps" command, the "docker images" command is entered.
 # ![](images/4.png)
 
-- "docker start <Images ID>
+- "docker start "ImagesID"
 # ![](images/5.png)
 
-- "docker ps" and "docker exec -u root -it <Container ID> bash"
+- "docker ps" and "docker exec -u root -it "ContainerID" bash"
 # ![](images/6.png)
 
 # ![](images/7.png)
