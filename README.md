@@ -4,4 +4,4 @@
 
 - docker pull sumeyye1928/proje
 - docker ps
-- docker exec -u root -it 53a4017d743e bash
+- docker exec -u root -it <container_id> bash
