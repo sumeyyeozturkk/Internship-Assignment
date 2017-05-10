@@ -1,4 +1,4 @@
-# Proje
+# Project
 
 # How to install 
 
